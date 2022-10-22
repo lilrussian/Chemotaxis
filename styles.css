@@ -15,7 +15,65 @@ header {
 	
 }
 
-footer {
-	font-style: italic;
-	font-size: 90%;
+.btn1 {
+  letter-spacing: 0.1px;
+    font-style: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: cyan;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 magenta;
+    transition: ease-out 0.5s;
+    font-size: 20px;
+    outline: none;
+  margin: auto;
+}
+
+.btn1:hover {
+  box-shadow: inset 220px 0 0 0 magenta;
+    color: white;
+    cursor: pointer;
+  font-size: 19px;
+}
+
+.btn:active {
+  width: 140px;
+    height: 30px;
+}
+
+
+.ftr a {
+  color: black;
+}
+
+
+.ftr {
+  order: 1;
+  letter-spacing: 0.1px;
+    font-style: bold;
+    width: 200px;
+    height: 20px;
+    border: none;
+    color: black;
+    background-color: cyan;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 magenta;
+    transition: ease-out 0.35s;
+    font-size: 15px;
+    outline: none;
+  margin: auto;
+}
+
+.ftr:hover {
+  box-shadow: inset 220px 0 0 0 magenta;
+    color: gray;
+    cursor: pointer;
+  font-size: 14px;
+}
+
+.ftr a:hover {
+  transition: ease-out 0.15s;
+  color: white;
 }
